@@ -38,17 +38,12 @@
         {
           "anchor": "aithing.dev",
           "href": "https://aithing.dev",
-          "icon": "slash-forward"
+          "icon": "house"
         },
         {
           "anchor": "get.aithing.dev",
           "href": "https://get.aithing.dev",
-          "icon": "slash-forward"
-        },
-        {
-          "anchor": "enterprise.aithing.dev",
-          "href": "https://enterprise.aithing.dev",
-          "icon": "slash-forward"
+          "icon": "download"
         }
       ]
     }
