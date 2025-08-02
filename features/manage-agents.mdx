@@ -1,0 +1,96 @@
+---
+title: "Manage Agents"
+description: "Add, customize, and control AI agents to help you get work done"
+---
+
+<Card title=" " img="/images/manage-agents.png">
+  Agents are powerful helpers that perform specific tasks like building apps, working with GitHub, or integrating with custom tools. You can manage agents easily with global or local setups.
+  <Card title="Get Started" href="quickstart" horizontal arrow="true"></Card>
+</Card>
+
+Just like Brains, agents can be configured in three ways:
+
+## Self Managed
+
+Add your own agents manually using either **Global** or **Local** mode.
+
+<Card title="Global Mode" img="/images/manage-agents-global.png">
+  Use this when your agent is already hosted online (e.g. APIs, remote services).
+
+  **Example:**
+
+  ```json
+  
+    "Name": "GitHub",
+    "URL": "https://api.githubcopilot.com/mcp/"
+    "Auth Token": "ghp_testing"
+  
+  ````
+
+  <Info>The Auth Token is optional. It is used to authenticate your access.</Info>
+</Card>
+
+<Card title="Local Mode" img="/images/manage-agents-local.png">
+  Use this when the agent runs locally on your own machine (e.g. through Docker, CLI tools, wrappers).
+
+  **Example:**
+
+  ```json
+  
+    "Name": "XCode",
+    "Command": "/usr/local/bin/xcode-npx-wrapper"
+    "Arguments": "-y xcodebuildmcp@latest"
+  
+  ```
+  
+  <Info>Arguments are optional. These are space-separated values passed to the command.</Info>
+</Card>
+
+To add a new agent:
+
+1. Click **+ Add Agent**
+2. Enter the name, and choose between **Global** or **Local**
+3. Fill in the required fields based on the mode
+4. Toggle the agent ON to activate
+
+<Info>You can add up to 3 agents with the Free Plan.</Info>
+
+## Managed by AI Thing
+
+If you're on the **Individual Plan**, you’ll get access to pre-integrated agents provided by us.
+
+These include:
+
+* **GitHub** *(Coming soon)*
+* **Google Workspace** *(Coming soon)*
+
+Just toggle them on—no manual tokens needed.
+
+<Image src="/images/Screenshot 2025-08-02 at 4.13.53 PM.png" alt="Managed by AI Thing" />
+
+<Note>Upgrade to the [Individual Plan](/plans#individual) to unlock managed agents.</Note>
+
+## Managed by Organization
+
+Enterprise users can centrally configure and deploy agents for their teams. Perfect for shared workflows and sensitive integrations.
+
+Admins can:
+
+* Add and distribute internal agents
+* Control access securely
+* Fine-tune them for company-specific workflows
+
+<Tip>Upgrade to the [Enterprise Plan](/plans#enterprise) to distribute internal agents.</Tip>
+
+<Card title="Coming Soon" icon="stars">
+  - Agent usage stats  
+  - Share agents across users  
+  - Import/export agent configurations  
+</Card>
+
+<Note>
+  Need help setting up agents? Email us at help@aithing.dev.
+</Note>
+
+<Card title="Get Started" href="quickstart" horizontal arrow="true"></Card>
+

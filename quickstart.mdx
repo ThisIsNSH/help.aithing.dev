@@ -1,80 +1,113 @@
 ---
 title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+description: "Start using AI Thing in minutes..."
 ---
 
-## Get started in three steps
+<Card title="">
+  <video autoPlay muted loop playsInline className="w-full aspect-video rounded-xl" src="/videos/quickstart.mp4"></video>
+  Get the latest version of AI Thing running and execute your first task in minutes.
+</Card>
 
-Get your documentation site running locally and make your first customization.
-
-### Step 1: Set up your local environment
+### Step Uno: Get
 
 <AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
+  <Accordion icon="download" title="Download AI Thing">
+    <Card title="Download AI Thing" icon="rocket" href="https://get.aithing.dev" horizontal>
+      Version 1.1 (2025-08-03)
+    </Card>
   </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
+  <Accordion icon="floppy-disk" title="Install AI Thing">
+    1. Go to your **Downloads** folder and double-click the `AI Thing.dmg` file  
+    2. Drag **AI Thing** into the **Applications** folder  
+    3. Open the **Applications** folder and double-click the **AI Thing** app  
+    4. Show/hide **AI Thing** using `Control (^) + Space`  
+
+    <Warning>You may need to allow apps from unidentified developers. [Here's how](https://support.apple.com/en-us/102445)</Warning>
   </Accordion>
 </AccordionGroup>
 
-### Step 2: Deploy your changes
+### Step Dos: Set
 
 <AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
+  <Accordion icon="brain" title="Choose Brain">
+    1. Open **Settings** with `Control (^) + S`  
+    2. Get your [Anthropic API key](https://docs.anthropic.com/en/api/overview#accessing-the-api)  
+    3. Paste the key (starting with `sk-ant-...`) into the field:  
+       ![API Key Input](/images/quickstart-api-key.png)
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
+    <Info>The free version doesn’t include one-click brain integration, so you'll need to enter the API key manually.</Info>  
+    <Tip>Upgrade to the [Individual Plan](/plans#individual) to skip the API key setup.</Tip>
+  </Accordion>
 
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
+  <Accordion icon="github" title="Set Up GitHub Agent">
+    The GitHub Agent lets you perform [these tasks](https://github.com/github/github-mcp-server?tab=readme-ov-file#available-toolsets).
+
+    1. Go to the **Agents** tab in Settings  
+    2. Click `+ Add Agent`  
+    3. Enter the following details ([What are these?](https://github.com/github/github-mcp-server/blob/main/docs/installation-guides/install-other-copilot-ides.md#remote-server-recommended)):  
+        - **Name:** `GitHub`  
+        - **URL:** `https://api.githubcopilot.com/mcp/`  
+        - **Auth Token:** `ghp_xyz...` ([How to create one?](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic))  
+    4. Close Settings with `Control (^) + S`
+
+    You'll see a “Waking up agents...” popup. Once it disappears, you're good to go!
+
+    <Tip>Skip manual setup with the [Individual Plan](/plans#individual).</Tip>
   </Accordion>
 </AccordionGroup>
 
-### Step 3: Go live
+### Step Tres: Go
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
-</Accordion>
+<AccordionGroup>
+  <Accordion icon="rocket" title="What is @this">
+    This isn't related to the GitHub Agent—just a quick example of how `@this` works.
 
-## Next steps
+    1. Open the AI Agent with `Control (^) + Space`  
+    2. Type: `What is @this?`
 
-Now that you have your docs running, explore these key features:
+    <Info>
+      You'll see a small screenshot of your current screen. AI uses that screenshot to understand context.  
+      Remove `@this` from your message to discard the screenshot.  
+      Once received, the AI remembers the screenshot until the tab is closed.
+    </Info>
+
+    3. Hit **Enter**
+  </Accordion>
+
+  <Accordion icon="github" title="Create GitHub Issue Summary">
+    Let’s summarize an issue from the [help.aithing.dev GitHub repository](https://github.com/ThisIsNSH/help.aithing.dev).
+
+    1. Open the AI Agent with `Control (^) + Space`  
+    2. Type: `Summarize https://github.com/ThisIsNSH/help.aithing.dev/issues/2`
+
+    <Info>If it doesn’t work, make sure the "GitHub" agent is enabled in Settings.</Info>
+  </Accordion>
+</AccordionGroup>
+
+## Next Steps
+
+Now that you've run your first task, explore these key features:
 
 <CardGroup cols={2}>
 
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
+<Card title="Multiple Tabs" icon="rectangle-history" href="/features/multiple-tabs">
+  Work on many tasks at the same time without losing progress.
 </Card>
 
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
+<Card title="Integrate Brains" icon="brain" href="/features/integrate-brains">
+  Choose which AI you want to power your tasks.
 </Card>
 
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
+<Card title="Manage Agents" icon="users" href="/api-reference/manage-agents">
+  Add and control helpful AI assistants for different jobs.
 </Card>
 
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
+<Card title="Keyboard Shortcuts" icon="keyboard" href="/features/keyboard-shortcuts">
+  Use simple key combos to get things done faster.
 </Card>
 
 </CardGroup>
 
 <Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
+  **Need help?** Email us at help@aithing.dev.
 </Note>
