@@ -36,12 +36,12 @@ Task complexity is no longer a limitation. [AI Thing](https://get.aithing.dev) i
     <td>
       <strong>🗂 Multiple Tabs</strong><br />
       Run multiple tasks in parallel across different tabs—no need to wait.<br />
-      [Learn more →](https://aithing.dev/features/multiple-tabs)
+      Learn more → https://aithing.dev/features/multiple-tabs
     </td>
     <td>
       <strong>👥 Multiple Agents</strong><br />
       Built to enable collaboration between multiple AI agents for smarter task execution.<br />
-      [Learn more →](https://aithing.dev/features/manage-agents)
+      Learn more → https://aithing.dev/features/manage-agents
     </td>
   </tr>
 </table>
