@@ -1,44 +1,57 @@
-# Mintlify Starter Kit
+# AI Thing
 
-Use the starter kit to get your docs deployed and ready to customize.
+Welcome to the saying: "Just used that AI Thing..."
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+![AI Overview](/images/index-basic.png)
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+Let AI agents handle complex and repetitive tasks in parallel and in the background—so you can focus on what truly matters.
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+[🚀 Get Started →](https://aithing.dev/quickstart)
 
-## Development
+## Abstraction & Privacy
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+No matter your domain, [AI Thing](https://get.aithing.dev) is designed to support every aspect of your work—so you can get things done without worrying about how it works behind the scenes.
 
-```
-npm i -g mint
-```
+<table>
+  <tr>
+    <td>
+      <strong>✨ Abstraction</strong><br />
+      Built to abstract away AI jargon, allowing you to focus on what’s important—not the technical details.
+    </td>
+    <td>
+      <strong>🔒 Privacy</strong><br />
+      Developed with a privacy-first approach. You control what the AI sees—starting with nothing by default.
+    </td>
+  </tr>
+</table>
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+[⚡ Get Started Securely →](https://aithing.dev/quickstart)
 
-```
-mint dev
-```
+## Parallel & Complex Tasks
 
-View your local preview at `http://localhost:3000`.
+Task complexity is no longer a limitation. [AI Thing](https://get.aithing.dev) is engineered to handle multiple complex tasks in parallel, enabling AI agents to collaborate simultaneously.
 
-## Publishing changes
+<table>
+  <tr>
+    <td>
+      <strong>🗂 Multiple Tabs</strong><br />
+      Run multiple tasks in parallel across different tabs—no need to wait.<br />
+      [Learn more →](https://aithing.dev/features/multiple-tabs)
+    </td>
+    <td>
+      <strong>👥 Multiple Agents</strong><br />
+      Built to enable collaboration between multiple AI agents for smarter task execution.<br />
+      [Learn more →](https://aithing.dev/features/manage-agents)
+    </td>
+  </tr>
+</table>
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+[⚡ Perform Complex Tasks →](https://aithing.dev/quickstart)
 
-## Need help?
+## Elevator Pitch
 
-### Troubleshooting
+Try [AI Thing](https://get.aithing.dev) for free, and experience AI agents like never before.
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+It is built to boost your productivity, support your learning, and take care of repetitive work—without encouraging "cheating". We carefully select and provide features to align with our commitment to Good & Safe AI.
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
-- [Mintlify community](https://mintlify.com/community)
+[⬇️ Try Now →](https://aithing.dev/quickstart) – No sales pitch beats trying it for free.
