@@ -21,8 +21,31 @@ description: "Start using AI Thing in minutes..."
     2. Drag **AI Thing** into the **Applications** folder  
     3. Open the **Applications** folder and double-click the **AI Thing** app  
     4. Show/hide **AI Thing** using `Control (^) + Space`  
+  </Accordion>
+  <Accordion icon="rocket" title="Setup @this [Important]">
+    1. Open the AI Agent with `Control (^) + Space`  
+    2. Type: `What is @this?`
+    3. A popup will appear asking for permission to allow AI Thing to record the screen and audio:
+        <Frame>
+          <img src="/images/this-screen-recording-allow.jpeg" />
+        </Frame>
+        
+        <Warning>
+        AI Thing does not record audio at all. 
+        It does not continuously record your screen. It only captures the screen when @this is mentioned and displays it to the user. 
+        Privacy is a top priority for AI Thing.
+        </Warning>
 
-    <Warning>You may need to allow apps from unidentified developers. [Here's how](https://support.apple.com/en-us/102445)</Warning>
+        You may choose not to grant permission. Without it, AI Thing will still work but won’t be able to understand @this.
+
+    4. If you grant permission, you’ll be prompted to quit and reopen the app:
+        <Frame>
+          <img src="/images/this-quit.jpeg" />
+        </Frame>
+
+    5. Open **Settings** with `Control (^) + S`  
+    6. Click the Quit button in the bottom-left corner.
+    7. Restart AI Thing by opening it from the Applications folder.
   </Accordion>
 </AccordionGroup>
 
@@ -59,21 +82,6 @@ description: "Start using AI Thing in minutes..."
 ### Step Tres: Go
 
 <AccordionGroup>
-  <Accordion icon="rocket" title="What is @this">
-    This isn't related to the GitHub Agent—just a quick example of how `@this` works.
-
-    1. Open the AI Agent with `Control (^) + Space`  
-    2. Type: `What is @this?`
-
-    <Info>
-      You'll see a small screenshot of your current screen. AI uses that screenshot to understand context.  
-      Remove `@this` from your message to discard the screenshot.  
-      Once received, the AI remembers the screenshot until the tab is closed.
-    </Info>
-
-    3. Hit **Enter**
-  </Accordion>
-
   <Accordion icon="github" title="Summarize GitHub Issue">
     Let’s summarize an issue.
 
